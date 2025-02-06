@@ -1,0 +1,2 @@
+# Julia MethodError with Custom Function and Complex Numbers
+This repository demonstrates a common error encountered in Julia when working with custom functions and complex numbers.  The function `my_function` successfully handles positive and negative real numbers but throws a `MethodError` when a complex number is provided as input. The solution shows how to handle complex numbers explicitly by either checking the type or using more general functions.
